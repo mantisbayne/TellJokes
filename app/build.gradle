@@ -56,7 +56,7 @@ dependencies {
 
 
     endpointsServer project(path: ':backend', configuration: 'endpoints')
-    implementation project(":jokeAndroidLib")
+    implementation project(':andrLib')
 
     // Testing
     testImplementation 'junit:junit:4.12'
