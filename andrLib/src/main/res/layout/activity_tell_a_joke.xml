@@ -23,8 +23,10 @@
         android:layout_height="0dp"
         android:layout_margin="@dimen/medium_margin"
         android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        android:gravity="center_horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/joke_header" />
+        app:layout_constraintTop_toBottomOf="@+id/joke_header"
+        tools:text="Here's an amazing joke"/>
 </android.support.constraint.ConstraintLayout>
